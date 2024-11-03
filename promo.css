@@ -1,0 +1,55 @@
+.container { 
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px; /* Aumentado el padding para más espacio */
+    background-color: #f9f9f9; /* Fondo claro y suave */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+    display: flex;
+    flex-direction: column; /* Alinea las secciones verticalmente */
+}
+
+/* Sección de promoción */
+.promocion-grid-2024 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Limita a 5 columnas */
+    gap: 30px; /* Aumentado el espacio entre los elementos */
+    width: 100%;
+    margin-top: 30px; /* Aumentado el margen superior */
+}
+
+.promocion-item-2024 {
+    position: relative;
+    width: 160px; /* Aumentado el ancho para más espacio */
+    height: 240px; /* Aumentada la altura para más espacio */
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px; /* Esquinas redondeadas */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    transition: transform 0.3s; /* Añadido efecto de transformación */
+}
+
+.promocion-item-2024 img {
+    width: 100%;
+    height: 160px; /* Ajustado el tamaño de la imagen */
+    border-radius: 10px; /* Esquinas redondeadas */
+    transition: transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra más suave */
+}
+
+.promocion-item-2024:hover img {
+    transform: scale(1.1); /* Efecto de acercamiento en la imagen */
+}
+
+.promocion-item-2024 p {
+    margin-top: 10px; /* Aumentado la separación entre la imagen y el texto */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    font-weight: bold;
+    color: #2c3e50; /* Color de texto más oscuro */
+    opacity: 0; /* El texto es invisible inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave para el texto */
+}
+
+.promocion-item-2024:hover p {
+    opacity: 1; /* El texto aparece cuando se hace hover */
+}

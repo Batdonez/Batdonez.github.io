@@ -1,0 +1,69 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif; /* Cambiado a Arial */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2e7d32; /* Verde más oscuro */
+}
+
+header {
+    font-family: 'Verdana', sans-serif; /* Cambiado a Verdana */
+    background: #4caf50; /* Verde más brillante */
+    color: white;
+    padding: 1.5rem; /* Aumentado el padding */
+    text-align: center;
+    border-bottom: 5px solid #1b5e20; /* Añadido borde inferior */
+}
+
+nav ul {
+    font-family: 'Arial', sans-serif; /* Cambiado a Arial */
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: 'Arial', sans-serif; /* Cambiado a Arial */
+    display: inline;
+    margin: 0 15px; /* Aumentado el margen */
+}
+
+nav ul li a {
+    font-family: 'Arial', sans-serif; /* Cambiado a Arial */
+    color: #ffffff; /* Color blanco */
+    text-decoration: none;
+    font-weight: bold; /* Añadido negrita */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Color amarillo al pasar el mouse */
+}
+
+section {
+    font-family: 'Arial', sans-serif; /* Cambiado a Arial */
+    background: #ffffff; /* Fondo blanco */
+    margin: 20px;
+    padding: 30px; /* Aumentado el padding */
+    border-radius: 10px; /* Esquinas más redondeadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Cambiado a Georgia */
+    color: #388e3c; /* Verde más oscuro */
+    font-size: 2rem; /* Aumentado el tamaño */
+    margin-bottom: 15px; /* Añadido margen inferior */
+}
+
+footer {
+    font-family: 'Verdana', sans-serif; /* Cambiado a Verdana */
+    text-align: center;
+    padding: 1.5rem; /* Aumentado el padding */
+    background: #388e3c; /* Verde más oscuro */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #1b5e20; /* Añadido borde superior */
+}

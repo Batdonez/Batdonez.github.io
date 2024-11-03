@@ -1,0 +1,175 @@
+/* Estilos Generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Cambiado a Helvetica Neue */
+    margin: 0;
+    padding: 0;
+    background-color: #1d1f21; /* Fondo más oscuro */
+}
+
+h2, h3, h4 {
+    color: #ffdd57; /* Color amarillo más claro */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Tipo de letra diferente */
+}
+
+p {
+    color: #f5f5f5; /* Texto blanco suave */
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffd829; /* Negro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffffef;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #fff022; /* Azul claro al pasar el mouse */
+    border-radius: 5px;
+}
+
+#instalaciones-logros {
+    background-color: #fffb20; /* Color azul oscuro */
+    padding: 60px; /* Aumentado el padding */
+    margin: 60px auto; /* Aumentado el margen */
+    max-width: 1200px;
+    border-radius: 20px; /* Esquinas más redondeadas */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 1.6rem; /* Aumentado el tamaño */
+    margin-bottom: 60px; /* Aumentado el margen */
+    color: #ffffff;
+}
+
+/* Sección Instalaciones */
+.seccion-instalaciones {
+    margin-bottom: 80px; /* Aumentado el margen */
+}
+
+.instalaciones-contenido {
+    display: flex;
+    justify-content: space-between; /* Cambiado para mejor distribución */
+    flex-wrap: wrap;
+    gap: 30px; /* Aumentado el espacio entre elementos */
+}
+
+.instalacion-item {
+    width: 30%; /* Aumentado el ancho */
+    background-color: #444; /* Color más suave */
+    border-radius: 20px; /* Esquinas más redondeadas */
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.instalacion-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Efecto de sombra al pasar el mouse */
+}
+
+.instalacion-item img {
+    width: 80%; /* Ajustado el tamaño de la imagen */
+    height: auto; /* Mantener proporción de la imagen */
+    object-fit: cover;
+    margin-top: 10px; /* Añadido margen superior */
+}
+
+.instalacion-item h4 {
+    font-size: 1.6rem; /* Aumentado el tamaño */
+    margin: 15px 0;
+    color: #ffdd57; /* Color amarillo más claro */
+}
+
+.instalacion-item p {
+    padding: 0 20px 15px; /* Ajustado el padding */
+}
+
+/* Sección Logros */
+.seccion-logros ul {
+    margin-top: 60px; /* Aumentado el margen superior */
+}
+
+.seccion-logros ul li {
+    font-size: 1.3rem; /* Aumentado el tamaño */
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+/* Galería */
+.galeria {
+    margin: 80px 0; /* Aumentado el margen */
+    color: #f1f1f1;
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Aumentado el espacio entre imágenes */
+}
+
+.galeria-imagenes img {
+    width: 45%; /* Ajustado el tamaño */
+    border-radius: 20px; /* Esquinas más redondeadas */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Bloque de Cita */
+blockquote {
+    margin: 60px auto; /* Aumentado el margen */
+    max-width: 800px;
+    font-size: 1.3rem; /* Aumentado el tamaño */
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Botón de contacto */
+.boton-contacto {
+    display: inline-block;
+    margin: 30px auto; /* Aumentado el margen */
+    padding: 15px 40px; /* Aumentado el padding */
+    background-color: #e91e63; /* Color rosa */
+    color: white;
+    font-size: 1.4rem; /* Aumentado el tamaño */
+    text-decoration: none;
+    border-radius: 10px; /* Esquinas más redondeadas */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-contacto:hover {
+    background-color: #d81b60; /* Color rosa oscuro */
+    transform: translateY(-3px); /* Efecto de elevar el botón al pasar el mouse */
+}
